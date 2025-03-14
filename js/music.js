@@ -1,6 +1,6 @@
 console.log('Lets write JavaScript');
 let currentsong = new Audio()
-let songs
+let songs=[]
 let currFolder
 function secondsToMinutesSeconds (seconds) {
     if (isNaN(seconds) || seconds < 0) {
